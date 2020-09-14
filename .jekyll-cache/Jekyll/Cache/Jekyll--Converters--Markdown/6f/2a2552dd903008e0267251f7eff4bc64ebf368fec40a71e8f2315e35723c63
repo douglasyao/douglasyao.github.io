@@ -1,0 +1,39 @@
+I"�<p>“Heritability” is a quantity that is central to human genetics, and there is a huge amount of literature aiming to estimate various forms of it. Despite its ubiquity, there also seems to be a dearth of resources that explain what it actually is, in a way that is understandable to non-experts. I’m hoping that this blog post can address this. I’ll assume that the reader has at least a basic understanding of genetics (for example, you should know what a SNP, or genetic variant, is).</p>
+
+<h2 id="textbook-definition-of-heritability">Textbook definition of heritability</h2>
+
+<p>Heritability is the “proportion of variance” of a phenotype in a population of people that can “be explained” by genetic variants. What do these words actually mean?</p>
+
+<h2 id="proportion-of-variance-explained">Proportion of variance explained</h2>
+
+<p>The notion of “proportion of variance explained” is crucial to understanding heritability. We first start with some variable, which we’ll call \(y\). In our case, this variable will represent some phenotype such as an individual’s height. Next, we must define some model that attempts to “explain” \(y\) in some way using other variables, which we’ll call \(x_1, x_2,  \cdots, x_k \). In our case, \(x_k\) represents the minor allele count of a given SNP \(k\). Thus, we can write our model for \(y\) as something like this:</p>
+
+<p>\[ y = f(x_1, x_2, \cdots, x_k) + \epsilon \]</p>
+
+<p>What should this function \(f\) look like? In the simplest case, it could be a simple additive function of the variables, where we take some linear combination of the \(x\)’s. Or, the function could be much more complicated. For now, we won’t specify exactly what this function is. Here, \(\epsilon\) refers to whatever part of \(y\) that cannot be explained by \(f\).</p>
+
+<p>Now, how do we quantify how well \(f\) explains \(y\)?
+We do this by quantifying the “proportion of variance explained” as follows:</p>
+
+<p>\[\frac{Var(f(x_1, x_2, \cdots, x_k))}{Var(y)}\]</p>
+
+<p>Let’s take a step back. What exactly is going into the numerator and denominator here? We are looking at the variance of various quantities from the above model. Why variance? Well, variance is a sensible way to quantify uncertainty. We can think of \(Var(y)\) as the total uncertainty in our phenotype, which is how much uncertainty in our phenotype we would have if we didn’t use any model at all. Meanwhile, we can think of \(Var(f(x_1, x_2, \cdots, x_k))\) as how much of the phenotype can be “explained” by \(x_1, x_2, \cdots, x_k\). Putting that all together, when \(y\) represents a given phenotype and \(x_1, x_2, \cdots, x_k \) represent SNP minor allele counts, then \(\frac{Var(f(x_1, x_2, \cdots, x_k))}{Var(y)}\) is exactly the heritability of the phenotype.</p>
+
+<h2 id="narrow-sense-vs-broad-sense-heritability">Narrow sense vs broad sense heritability</h2>
+
+<p>We can define \(f\) in different ways to give us different flavors of heritability. When we let \(f\) represent the best possible <em>linear</em> predictor of our phenotype, then the resulting \(\frac{Var(f(x_1, x_2, \cdots, x_k))}{Var(y)}\) will refer to narrow-sense heritability (often denoted \(h^2\)). When we let \(f\) represent the best possible predictor <em>period</em> (which can be nonlinear), then \(\frac{Var(f(x_1, x_2, \cdots, x_k))}{Var(y)}\) will refer to broad-sense heritability (often denoted \(H^2\)). You might think that it’s hard to learn the best possible predictor of a phenotype, and you’d be correct - but the cool thing is that statistical geneticists have developed methods to reliably estimate heritability without explicitly estimating this predictor.</p>
+
+<p>There are several reasons why we often care more about \(h^2\) than \(H^2\) in practice. For one, when we actually want to explicitly estimate \(f\) (which we need to do if we want to predict phenotype from genotype), it’s much easier to estimate \(f\) when it’s linear. Thus, \(h^2\) gives us an upper bound on the</p>
+
+<h2 id="how-should-we-interpret-heritability">How should we interpret heritability?</h2>
+
+<p>I think this section is much more important than the previous sections that simply walk through the definition of heritability. Although the definition of heritability is pretty straightforward, there are lot of subtleties that should be kept in mind when thinking about heritability.</p>
+
+<p><strong>(1) Heritability comes very close to causality (much closer than what you might think at first glance)</strong>. What do I mean by this? Oftentimes when people perform a regression analysis, where they learn some relationship between a dependent variable and one or more independent variables, there is no guarantee of the existence of any causal relationship between the dependent and independent variables (even if the proportion of variance explained is very high). This is the classic “correlation does not imply causation” argument. However, when we specifically have our independent variables represent SNP minor allele count and our dependent variable represent a phenotype, then correlation <em>DOES</em> imply causation (with a few caveats, see below).</p>
+
+<p>This fact is somewhat surprising (at least it was to me when I first learned it), but it makes sense when you think about where our genetics comes from.</p>
+
+<p>First, it’s important to understand what exactly leads to correlation \(\neq\) causation. The two main</p>
+
+<p>(1) Heritabilty is a function of the  Note that in order to have</p>
+:ET

@@ -1,0 +1,18 @@
+I"�<p>“Heritability” is a quantity that is central to human genetics, and there is a huge amount of literature aiming to estimate various forms of it. Despite its ubiquity, there also seems to be a dearth of resources that explain what it actually is, in a way that is understandable to non-experts. I’m hoping that this blog post can address this. I’ll assume that the reader has at least a basic understanding of genetics (for example, you should know what a SNP, or genetic variant, is).</p>
+
+<h2 id="textbook-definition-of-heritability">Textbook definition of heritability</h2>
+
+<p>Heritability is the “proportion of variance” in a population of people that can “be explained” by genetic variants. What do these words actually mean?</p>
+
+<h2 id="proportion-of-variance-explained">Proportion of variance explained</h2>
+
+<p>The notion of “proportion of variance explained” is an important concept in statistics. We must first start with some variable, which we’ll call \(y\). In our case, this variable will represent some real-life quantity such as an individual’s height. Next, we must define some model that attempts to “explain” \(y\) in some way using other variables, which we’ll call \(x_1 \cdot x_k \). In our case, these variables will represent the minor allele count of a given SNP (in other words, 0, 1, or 2 copies of less-common SNP in the population).</p>
+
+<p>Why do we care about variance in the first place? Well, we can think of the variance of \(y\) as a</p>
+
+<p>Thus, we can write</p>
+
+<p>Due to its simplicity, it is very common to e</p>
+
+<p>In our case, let’s say that we have two other variables <sub>subscript</sub></p>
+:ET

@@ -1,0 +1,31 @@
+I"�
+<p>“Heritability” is a quantity that is central to human genetics, and there is a huge amount of literature aiming to estimate various forms of it. Despite its ubiquity, there also seems to be a dearth of resources that explain what it actually is, in a way that is understandable to non-experts. I’m hoping that this blog post can address this. I’ll assume that the reader has at least a basic understanding of genetics (for example, you should know what a SNP, or genetic variant, is).</p>
+
+<h2 id="textbook-definition-of-heritability">Textbook definition of heritability</h2>
+
+<p>Heritability is the “proportion of variance” of a phenotype in a population of people that can “be explained” by genetic variants. What do these words actually mean?</p>
+
+<h2 id="proportion-of-variance-explained">Proportion of variance explained</h2>
+
+<p>The notion of “proportion of variance explained” is crucial to understanding heritability. We first start with some variable, which we’ll call \(y\). In our case, this variable will represent some phenotype such as an individual’s height. Next, we must define some model that attempts to “explain” \(y\) in some way using other variables, which we’ll call \(x_1, x_2,  \cdots, x_k \). In our case, \(x_k\) represents the minor allele count of a given SNP \(k\). Thus, we can write our model for \(y\) as something like this:</p>
+
+<p>\[ y = f(x_1, x_2, \cdots, x_k) + \epsilon \]</p>
+
+<p>What should this function \(f\) look like? In the simplest case, it could be a simple additive function of the variables, where we take some linear combination of the \(x\)’s. Or, the function could be much more complicated. For now, we won’t specify exactly what this function is. Here, \(\epsilon\) refers to whatever part of the \(y\) that cannot be explained by \(f\)</p>
+
+<p>Now, we can define the “proportion of variance explained” as follows:</p>
+
+<p>\[\frac{Var(f(x_1, x_2, \cdots, x_k))}{Var(y)}\]</p>
+
+<p>Let’s take a step back. What exactly is going into the numerator and denominator here? We are looking at the variance of various quantities from the above model. Why variance? Well, variance is the currency we use to quantify uncertainty in our model. We can think of \(Var(y)\) as the total uncertainty in model, which is how much uncertainty we would have if we didn’t use any model at all. Meanwhile, we can think of</p>
+
+<p>Well, we can think of variance as a quantification of uncertainty. More specifically, we should think fo the variance of the</p>
+
+<p>Why do we care about variance in the first place? Well, we can think of the variance of \(y\) as a</p>
+
+<p>Thus, we can write</p>
+
+<p>Due to its simplicity, it is very common to e</p>
+
+<p>In our case, let’s say that we have two other variables <sub>subscript</sub></p>
+:ET

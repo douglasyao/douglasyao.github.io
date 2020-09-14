@@ -1,12 +1,10 @@
 ---
 layout: page
 title: About
-subtitle: Just who the hell you think I am?
+<!-- subtitle: Just who the hell you think I am? -->
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<img src="/assets/about_headshot.jpg" width="600">
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Hello! I am a 3rd year PhD student in the [Bioinformatics and Integrative Genomics](http://dms.hms.harvard.edu/BIG/) program at Harvard Medical School. I am co-advised by [Sasha Gusev](http://gusevlab.org/) (Dana Farber Cancer Institute) and [Brian Cleary](https://clearylab.org/) (Broad Institute). I received my B.S. in Molecular, Cell, and Developmental Biology from UCLA in 2018. In my free time, I like to play piano and guitar, and sing poorly.
