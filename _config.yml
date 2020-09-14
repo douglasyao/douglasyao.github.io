@@ -4,7 +4,7 @@ description: >-
   Douglas Yao's personal website
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "douglasyao.github.io" # the base hostname & protocol for your site
 
 author:
   fullname: Douglas Yao
