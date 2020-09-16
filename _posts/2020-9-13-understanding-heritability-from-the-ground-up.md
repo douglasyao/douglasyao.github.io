@@ -3,7 +3,7 @@ layout: post
 title: Introduction to heritability
 ---
 
-"Heritability" is a quantity that is central to human genetics, and there is a huge amount of literature aiming to estimate various forms of it. You've probably seen people define heritability as something like "how well genetics accounts for differences in phenotypes in people" or "the degree of variation in a phenotype that is due to genetic variation" but these definitions are quite vague in my opinion. In a series of blog posts, I'll define heritability and describe how to interpret it in a concise way that is (hopefully) understandable to non-experts, though I think this guide will be most useful to people who already know a bit about GWAS and human genetics. 
+"Heritability" is a quantity that is central to human genetics, and there is a huge amount of literature aiming to estimate various forms of it. You've probably seen people define heritability as something like "how well genetics accounts for differences in phenotypes in people" or "the degree of variation in a phenotype that is due to genetic variation" but these definitions are quite vague in my opinion. In a series of blog posts, I'll define heritability and describe how to interpret it in a concise way that is (hopefully) understandable to non-experts, though I think this guide will be most useful to people who already know a bit about GWAS and human genetics.
 
 ## Textbook definition of heritability
 
