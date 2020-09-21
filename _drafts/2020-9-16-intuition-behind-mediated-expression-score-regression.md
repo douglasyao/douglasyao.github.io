@@ -69,7 +69,8 @@ Well, you might think that it's unrealistic that the entire effect of the SNP on
 
 
 
-where the SNP has some effect on the trait that isn't going through the gene. Ok, so how do we estimate \\(\alpha\\) now? It's tricky if we just look at one SNP, but if we have _multiple_ SNPs that affect the gene, then we have a way to approach this problem.  
+where the SNP has some effect on the trait that isn't going through the gene. Ok, so how do we estimate \\(\alpha\\) now? It's tricky if we just look at one SNP, but if we have _multiple_ SNPs that affect the gene, then we have a way to approach this problem.
+
 
 
 
@@ -78,13 +79,13 @@ If you're familiar with TWAS, this sounds quite similar to the genetic correlati
 
 To summarize:
 
-
+Let me end this section by saying the following: there is no completely foolproof way to distinguish mediation from pleiotropy. All methods that aim to do this make certain assumptions
 
 
 
 # "Mediated heritability" vs. "explained heritability"
 
-This section is somewhat technical, so feel free to skip if you want. There is a subtle but important difference between
+This section is somewhat technical, so feel free to skip if you want. There is a subtle but important difference between the quantity we aim to estimate
 
 
 
@@ -98,14 +99,6 @@ This section is somewhat technical, so feel free to skip if you want. There is a
 * **Fine-mapping**: is a way to try to identify causal GWAS hits or eQTLs in a region of marginal GWAS hits or eQTLs. Without going into detail, fine-mapping methods take into account the LD structure of a region of associated SNPs and give you a probability that a particular SNP truly has a causal effect on the trait.
 * **Colocalization**: This concept is closely related to fine-mapping. One early way that people have tried to integrate eQTLs with GWAS was to simply intersect marginal GWAS hits with marginal eQTLs, but as you can imagine this is complicated by tagging effects of nearby SNPs. Colocalization involves jointly fine-mapping both the eQTL and GWAS hit in order to produce a probability that the exact same SNP is causal for both expression and trait.
 * **Transcriptome-wide association study (TWAS)**: TWAS was developed as an alternative approach to colocalization. Rather than looking for genes with one or more eQTLs that have a high probability of also being GWAS hits (as colocalization does), TWAS looks for genes with _significant genetic correlation_ between their expression and trait. You can think of genetic correlation between two traits as the _correlation_ between the SNP effect sizes for those traits. In other words, in TWAS, we want to see that when eQTL effect sizes for a given gene go up, then the GWAS effect sizes of those SNPs also go up.
-* **Mendelian randomization**: Mendelian randomization (MR) is an approach that was developed a long time ago, but when applied to gene expression is very similar to TWAS. Whereas TWAS looks for _correlation_ between eQTL effect sizes and GWAS effect sizes, MR looks at the _slope_ when regressing GWAS effect sizes on eQTL effect sizes.
-* **TWAS vs MR**: The conceptual difference between TWAS and MR basically boils down to the difference between correlation and slope (which as you can imagine are two very similar things). In particular, . In practice, different methods have different ways of handling LD and other various implementation details.
-
-due to the fact that in a regression, the _correlation_ between the two variables is equivalent
-
-First, let's define some terms.
-Let \\(r_i\\) represent the _genetic correlation_ between the expression of gene \\(i\\) and a trait (TWAS will look for genes where this is significantly nonzero). Let \\(\alpha_i\\) represent the _slope_ from regressing GWAS effect sizes on a eQTL effect sizes for gene \\(i\\) (MR will look for genes where this is significantly nonzero). \\(r_i\\) and \\(\alpha_i\\) are related by the simple formula:
-\\[\alpha_i = r_i \frac{Var(\omega_k)}{Var(\beta_{ik})}\\]
-If we let \\(\beta\\) represent eQTL effect sizes and
-In what scenario will MR outperform TWAS? Suppose that we have . In the end, it's probably fine to think to TWAS and MR as basically the same thing, where the primary differences come down to implementation details.
+* **Mendelian randomization**: Mendelian randomization (MR) is an approach that was developed a long time ago, but when applied to gene expression is very similar to TWAS. Whereas TWAS looks for _correlation_ between eQTL effect sizes and GWAS effect sizes, MR looks at the _slope_ when _regressing_ GWAS effect sizes on eQTL effect sizes.
+* **TWAS vs MR**: The conceptual difference between TWAS and MR basically boils down to the difference between correlation and slope (which as you can imagine are two very similar things). In particular, the slope of regressing variables \\(y\\) on \\(x\\) is simply the correlation between \\(y\\) and \\(x\\) multiplied by \\(\frac{SD(y)}{SD(x)}\\). In practice, the biggest differences between TWAS and MR methods are their ways of handling LD and other various implementation details. I think of these two types of approaches as doing basically the same thing.
 * **Colocalization vs TWAS/MR**: TWAS/MR has various pros and cons relative to colocalization. For example, colocalization can eliminate scenarios where eQTLs and GWAS hits overlap due to "linkage," whereas TWAS/MR cannot (in fact, colocalization was specifically designed for this task). On the other hand, TWAS/MR is more powerful than colocalization when a gene has multiple eQTLs that all overlap with GWAS hits.
