@@ -1,0 +1,6 @@
+I"à<p>Permutation testing is a very widely used tool to perform hypothesis testing. There already exist many resources out there that explain the procedure behind permutation testing. Iâ€™ve also performed permutation testing myself in my own research. However, for a long time I felt like I never really <em>understood</em> permutation tests. <em>WHY</em> is it valid to just permute your sample/label pairs to construct an empirical null distribution? When is this procedure <em>not</em> valid? How does permutation testing compare with parametric hypothesis testing, and in what scenarios would we prefer either? How does permutation testing compare with other resampling methods such as a bootstrapping? This blog post represents my attempt to answer these questions in a way that is both non-technical and as detailed as possible.</p>
+
+<h1 id="a-brief-overview-of-permutation-testing">A brief overview of permutation testing</h1>
+
+<p>As there already exist a lot of resources out there</p>
+:ET
