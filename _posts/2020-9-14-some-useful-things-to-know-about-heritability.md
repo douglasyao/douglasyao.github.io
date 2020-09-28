@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some useful things to know about heritability
+title: Some useful things to know about heritability (2/2)
 ---
 
 In the previous blog post, I provided definitions of various forms of heritability. Although these definitions are pretty straightforward, there are a lot of extra things that should be kept in mind when interpreting heritability. These facts are "folk knowledge" to statistical geneticists but are often not obvious to people not working in the field. I will describe some of them below. Note that nowhere in this post will I talk about _how_ to estimate heritability; I'm simply discussing properties of heritability, with the assumption that we have reliable ways to estimate it. I will sometimes make a distinction between different types of heritability (\\(h_g^2\\),\\(h^2\\), or \\(H^2\\)), otherwise the facts apply to all forms of heritability.
