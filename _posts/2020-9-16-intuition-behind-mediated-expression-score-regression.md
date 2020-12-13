@@ -80,7 +80,7 @@ Finally done with definitions. Now, for the actual hard part: estimating \\(h_{m
 
 # Estimating disease heritability mediated by gene expression levels
 
-People have already thought about ways to try to distinguish pleiotropy from mediation, in particular under the umbrella of _Mendelian randomization_ (MR) methods. There are many different types of MR, which all come with their own bag of assumptions and pros/cons. The core idea behind MR is that if a gene's expression is truly mediating genetic effects on disease, then SNP effects on the gene should be proportional to SNP effects on the disease.
+People have already thought about ways to try to distinguish pleiotropy from mediation, in particular under the umbrella of _Mendelian randomization_ (MR) methods. There are many different types of MR, which all come with their own bag of assumptions and pros/cons. The core idea behind MR (when applied to gene expression) is that if a gene's expression is truly mediating genetic effects on disease, then SNP effects on the gene should be proportional to SNP effects on the disease.
 
 This is the core idea behind MESC as well (and is also closely related to TWAS/genetic correlation), so I think it's worth driving home. Let's walk through an example. For simplicity, let's assume that LD doesn't exist, so we can measure _causal_ rather than _marginal_ SNP effect sizes. Let's also assume for the moment that our eQTL measurements are taken in the _causal cell types/contexts for the disease_ (rather than from assayed tissues). These two things are obviously not true in practice, but they don't really change the following exposition. Either way, we'll talk about how to handle these things later.
 
