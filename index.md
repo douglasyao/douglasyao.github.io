@@ -1,7 +1,6 @@
 ---
 layout: page
 title:
-<!-- subtitle: Asdf -->
 sitemap:
   priority: 0.9
 ---
