@@ -1,8 +1,14 @@
-- slug: design
-  name: Design
+- slug: stats
+  name: Statistics
 
-- slug: tools
-  name: Tools
+- slug: genetics
+  name: Genetics
 
-- slug: productivity
-  name: Productivity
+- slug: genomics
+  name: Biology/genomics
+
+- slug: drug
+  name: Drug development
+
+- slug: other
+  name: Other
