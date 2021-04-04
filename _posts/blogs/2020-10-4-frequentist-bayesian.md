@@ -9,11 +9,8 @@ This post includes some notes on frequentist vs. Bayesian inference, including d
 The content of this post will draw from various resources:
 
 * Michael Jordan's talk on Bayesian vs. Frequentist inference. [https://www.youtube.com/watch?v=HUAE26lNDuE](https://www.youtube.com/watch?v=HUAE26lNDuE)
-
-* Gelman's Bayesian Data Analysis textbook. [http://www.stat.columbia.edu/~gelman/book/](http://www.stat.columbia.edu/~gelman/book/)
-
+* Andrew Gelman's Bayesian Data Analysis textbook. [http://www.stat.columbia.edu/~gelman/book/](http://www.stat.columbia.edu/~gelman/book/)
 * Notes from MIT 18.05 Probability and Statistics. [http://www-math.mit.edu/~dav/05.dir/05.html](http://www-math.mit.edu/~dav/05.dir/05.html)
-
 * Blog post from Jake VanderPlas on Bayesian vs. Frequentist inference. [http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/](http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/)
 
 # A picture to summarize everything
@@ -36,7 +33,13 @@ The above difference between the interpretation of probability between frequenti
 
 # Summary of practical differences
 
-So, what _are_ the practical differences? Because Bayesians attach probabilities to hypotheses (whereas frequentists do not), there is certainly
+So, what _are_ the practical differences? Because Bayesians attach probabilities to hypotheses whereas frequentists do not, this seems like it should certainly affect inference. In frequentist statistics we can't make statements like "this hypothesis is _probably_ true"; we can 
+
+The first thing I should mention is that frequentist and Bayesian inference often lead to very similar conclusions for simple problems.
+
+
+
+
 
 # Walking through an example
 
