@@ -7,7 +7,7 @@ latitude: 42.33672728391138
 longitude: -71.10346062796924
 altitude: 16.471256256103516
 source: desktop.mac
-layout: page
+layout: post
 categories: ['notes', 'genomics']
 ---
 

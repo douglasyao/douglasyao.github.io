@@ -60,7 +60,7 @@ The author provides a table of likely PPVs for various types of studies:
 
 Here, \\(1 - \beta \\) represents power, \\(R\\) represents the ratio of true to false hypotheses in a field (a.k.a. the prior on the hypothesis), and \\(u\\) represents the proportion of true negatives called positive due to bias.
 
-Based on the above table, the author concludes that most research findings are likely false. The numbers presented in the table are basically arbitrary, but I also don't think that the author was actually trying to show that most research findings are false, rather to propose a thought experiment.
+Based on the above table, the author concludes that most research findings are likely false. The numbers presented in the table are basically arbitrary, but I also don't think that the author was actually really trying to show that most research findings are false.
 
 ### Corollaries
 
