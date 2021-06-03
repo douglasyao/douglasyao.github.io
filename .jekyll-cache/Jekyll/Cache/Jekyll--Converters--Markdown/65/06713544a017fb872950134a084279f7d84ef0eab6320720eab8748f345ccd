@@ -1,0 +1,58 @@
+I"<p><strong>Authors</strong>: Iain M. Johnstone and Debashis Paul</p>
+
+<p><a href="https://ieeexplore.ieee.org/document/8412585">Link to paper</a></p>
+
+<h2 id="synopsis">Synopsis</h2>
+
+<p>This paper provides a review of the properties of eigenvalues and eigenvectors of the <em>random covariance matrices</em> in which the data is “high dimensional” (or the number of features is comparable to the number of samples). It turns out that the eigenvalues of such matrices exhibit some really interesting properties. This information is pertinent for answering questions like: “which eigenvectors/eigenvalues of a matrix are <em>significant</em>?” or “what proportion of variance in a matrix can be explained by low-rank signal vs. independent noise?”</p>
+
+<h2 id="summary">Summary</h2>
+
+<h3 id="background">Background</h3>
+
+<p>When performing PCA, we start with a \(p \times n\) matrix \(X\), where \(n\) is the number of samples and \(p\) is the number of features. We then find the eigenvalues and eigenvectors of the \(p \times p \) sample covariance matrix \(\frac{1}{n} X X^T \). Although PCA is simply a procedure applied to a matrix of fixed values, it can also be conceptualized in terms of <em>random matrices</em>, in which each sample is drawn from a multivariate distribution with some mean vector and covariance matrix.</p>
+
+<p>As \(n\) goes to infinity and \(p\) is fixed, the sample covariance matrix will converge to the population covariance matrix (a.k.a \(E[XX^T]\)), and the sample eigenvalues will also converge to the population eigenvalues. However, what happens if \(n\) and \(p\) _both _go to infinity and the ratio \(\frac{p}{n}\) stays constant? What will the eigenvalues of the sample covariance matrix look like? This is the boundary case in which the paper focuses on.</p>
+
+<h3 id="figure-2">Figure 2</h3>
+
+<p><img src="/assets/Johnstone-and-Paul-2018-Proceedings-of-the-IEEE-PCA-in-High-Dimensions-An-orientation-f92ae920-30cd-466a-b866-68460e56bc7f.png" alt="f92ae920-30cd-466a-b866-68460e56bc7f.png" /></p>
+
+<p>This figure illustrates the phenomenon known as “eigenvalue spreading,” in which sample eigenvalues are more spread out than population eigenvalues. Both figures denote a scenario in which the matrix has \(p\) = 100 features. On the left, all 100 eigenvalues of the population covariance matrix are equal to 1, while the eigenvalues of the sample covariance matrix (where \(n\) = 200) are spread out. The same phenomenon is observed when the eigenvalues of the population covariance matrix are spread evenly between 5 and 25 (on the right).</p>
+
+<h3 id="figure-3">Figure 3</h3>
+
+<p><img src="/assets/Johnstone-and-Paul-2018-Proceedings-of-the-IEEE-PCA-in-High-Dimensions-An-orientation-93e201a5-d7cc-4f5a-8a3c-500ae225f985.png" alt="93e201a5-d7cc-4f5a-8a3c-500ae225f985.png" width="300px" /></p>
+
+<p>Given a random matrix (features mean centered and variance standardized, samples iid), when \(n\) and \(p\) go to infinity and their ratio stays constant, the distribution of eigenvalues of the sample covariance matrix will converge to a <a href="https://en.wikipedia.org/wiki/Marchenko%E2%80%93Pastur_distribution">Marchenko-Pastur distribution</a> (which depends <em>only</em> on the ratio between \(n\) and \(p\)). This figures shows what this distribution looks like for two values \(\frac{n}{p} = 1\) and \(\frac{n}{p} = 4\).</p>
+
+<h3 id="figure-4">Figure 4</h3>
+
+<p><img src="/assets/Johnstone-and-Paul-2018-Proceedings-of-the-IEEE-PCA-in-High-Dimensions-An-orientation-fca751c1-774b-4de5-92ad-1d75192d394a.png" alt="fca751c1-774b-4de5-92ad-1d75192d394a.png" width="500px" /></p>
+
+<p>This figure describes the distribution of the largest eigenvalue in random covariance matrices. A very interesting fact is that even if the population covariance matrix has eigenvalues that are larger than 1, if these eigenvalues are smaller than some critical point indicated in the figure, then the distribution of sample eigenvalues will be <em>indistinguishable</em> from that arising from a population covariance matrix in which <em>all</em> eigenvalues are equal to 1.</p>
+
+<p>First, the way we model this is through the “spiked covariance” model, which is a way to model noise on top of low-rank structure. The model involves a “base” covariance matrix \(\Sigma_0\) and a low-rank perturbation:</p>
+
+<p>\[ \Sigma = \Sigma_0 + \sum_k^K h_k \mathbf{u}_k \mathbf{u}_k^T \]</p>
+
+<p>In the simplest case, \(\Sigma_0\) is the identity matrix, while \(h_k\) and \(\mathbf{u}_k\) are the eigenvalues and eigenvectors respectively of some low-rank structure in the covariance matrix. This model is called the “spiked” covariance model because it results in a population eigenvalue distribution with many points at 1 (corresponding to noise) and spikes at each \(h_k\) (corresponding to signal). This can also be conceptualized in terms of the probabilistic PCA model \(\mathbf{x = Wz + e}\), where \(\mathbf{x}\) is our sample, \(\mathbf{W}\) are all the eigenvectors of the sample covariance matrix, \(\mathbf{z}\) are the projected points in PC space (assumed to be randomly drawn from \(N(\mathbf{0}, \mathbf{I})\)), and \(\mathbf{e}\) is isotropic noise (drawn from \(N(\mathbf{0}, \mathbf{I})\)). The covariance matrix of \(\mathbf{x}\) is defined as \(\mathbf{W W}^T + \mathbf{I}\).</p>
+
+<p>Continuing on: let \(l_1\) represent an eigenvalue of our matrix greater than 1, with the remaining eigenvalues equal to 1. If \(l_1\) is smaller than \(1 + \sqrt{\gamma}\) (where \(\gamma\) is \(\frac{p}{n}\)), then the distribution of eigenvalues will be <em>exactly</em> the same as if \(l_1 = 1\) (a.k.a. it will look as if the matrix has no low-rank structure at all. This fact is pretty cool). Moreover, the corresponding eigenvector for \(l_1\) will be <em>completely uncorrelated</em> with the true eigenvector. The top eigenvalue will be distributed according to a <a href="https://en.wikipedia.org/wiki/Tracy%E2%80%93Widom_distribution">Tracy-Widom distribution</a> around the value \((1 + \sqrt{\gamma})^2\).</p>
+
+<h3 id="figure-5">Figure 5</h3>
+
+<p><img src="/assets/Johnstone-and-Paul-2018-Proceedings-of-the-IEEE-PCA-in-High-Dimensions-An-orientation-ba8070e7-8234-497b-bc43-cbbe05cfc0ec.png" alt="ba8070e7-8234-497b-bc43-cbbe05cfc0ec.png" width="500px" /></p>
+
+<p>This figure describes the scenario in which the population covariance matrix has eigenvalues that are larger than the critical point. If \(l_1\) is greater than \(1 + \sqrt{\gamma}\), then the top eigenvalue will now be distributed according to a <em>Gaussian distribution</em> while being <em>significantly upwardly biased</em> relative to \(l_1\) (interesting!). Meanwhile, the corresponding eigenvector will now be correlated with the true eigenvector, where the degree of correlation will depend on \(l_1\) and \(\gamma\):</p>
+
+<p><img src="/assets/Johnstone-and-Paul-2018-Proceedings-of-the-IEEE-PCA-in-High-Dimensions-An-orientation-7ce288b5-7945-4e92-b5f1-0d6c4b11efd0.png" alt="7ce288b5-7945-4e92-b5f1-0d6c4b11efd0.png" width="400px" /></p>
+
+<h3 id="figure-6">Figure 6</h3>
+
+<p><img src="/assets/Johnstone-and-Paul-2018-Proceedings-of-the-IEEE-PCA-in-High-Dimensions-An-orientation-237cd688-a8db-4334-9a4e-e70f5380f6f4.png" alt="237cd688-a8db-4334-9a4e-e70f5380f6f4.png" width="400px" /></p>
+
+<p>This figure shows the relationship between upward bias of \(\lambda(l_1)\) (a.k.a. the sample value of \(l_1\)) relative to its population value. The upward bias will converge to \(\gamma\) as \(l_1\) increases. More precisely, we have the following relationship between \(\lambda(l_1)\) and \(l_1\):</p>
+
+<p>\[ \lambda(l_1) - l_1 = \gamma \frac{l_1}{l_1 - 1} \]</p>
+:ET

@@ -1,0 +1,75 @@
+I"€<h1 id="paper-topics">Paper topics</h1>
+
+<div class="explore">
+    <ul class="categories">
+		<li class="categories__item"><a href="/notes">All</a></li>
+        
+            
+              <li class="categories__item"><a href="/categories/stats">Statistics/math</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/genetics">Genetics</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/genomics" style="text-decoration:underline;color:black">Biology/genomics</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/drug">Drug development</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/other">Other</a></li>
+            
+        
+    </ul>
+</div>
+
+<ul class="list-posts">
+    
+        <li class="post-teaser">
+            <a href="/notes/genomics/2020/10/28/Sun-et-al-2020-Nature-Methods-Statistical-analysis-of-spatial-expression-patterns-for-spatially-resolved-transcriptomic-studies.html">
+                <span class="post-teaser__title">Sun et al. 2020 Nature Methods - Statistical analysis of spatial expression patterns for spatially resolved transcriptomic studies</span>
+                <span class="post-teaser__date">28 October 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genomics/2020/10/28/Elowitz-et-al-2002-Science-Stochastic-Gene-Expression-in-a-Single-Cell.html">
+                <span class="post-teaser__title">Elowitz et al. 2002 Science - Stochastic Gene Expression in a Single Cell</span>
+                <span class="post-teaser__date">28 October 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genomics/2020/10/26/Parnas-et-al-2015-Cell-A-Genome-wide-CRISPR-Screen-in-Primary-Immune-Cells-to-Dissect-Regulatory-Networks.html">
+                <span class="post-teaser__title">Parnas et al. 2015 Cell - A Genome-wide CRISPR Screen in Primary Immune Cells to Dissect Regulatory Networks</span>
+                <span class="post-teaser__date">26 October 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genomics/2020/10/25/Brubaker-et-al-2015-Annual-Reviews-of-Immunology-Innate-Immune-Pattern-Recognition-A-Cell-Biological-Perspective.html">
+                <span class="post-teaser__title">Brubaker et al. 2015 Annual Reviews of Immunology - Innate Immune Pattern Recognition - A Cell Biological Perspective</span>
+                <span class="post-teaser__date">25 October 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genomics/2020/10/18/Shalek-et-al-2014-Nature-Single-cell-RNA-seq-reveals-dynamic-paracrine-control-of-cellular-variation.html">
+                <span class="post-teaser__title">Shalek et al. 2014 Nature - Single-cell RNA-seq reveals dynamic paracrine control of cellular variation</span>
+                <span class="post-teaser__date">18 October 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genomics/2019/08/31/Chen-2018-Ann-Rev-BMS-From-Tissues-to-Cell-Types-and-Back-Single-Cell-Gene-Expression-Analysis-of-Tissue-Architecture.html">
+                <span class="post-teaser__title">Chen et al. 2018 Ann Rev BMS - From Tissues to Cell Types and Back - Single-Cell Gene Expression Analysis of Tissue Architecture</span>
+                <span class="post-teaser__date">31 August 2019</span>
+            </a>
+        </li>
+    
+</ul>
+:ET

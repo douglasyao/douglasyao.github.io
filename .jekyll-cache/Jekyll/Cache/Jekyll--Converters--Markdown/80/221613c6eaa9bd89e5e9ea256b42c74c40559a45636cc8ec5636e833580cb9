@@ -1,0 +1,47 @@
+I"Û<h1 id="paper-topics">Paper topics</h1>
+
+<div class="explore">
+    <ul class="categories">
+		<li class="categories__item"><a href="/notes">All</a></li>
+        
+            
+              <li class="categories__item"><a href="/categories/stats" style="text-decoration:underline;color:black">Statistics/math</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/genetics">Genetics</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/genomics">Biology/genomics</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/drug">Drug development</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/other">Other</a></li>
+            
+        
+    </ul>
+</div>
+
+<ul class="list-posts">
+    
+        <li class="post-teaser">
+            <a href="/notes/stats/2020/11/04/Johnstone-and-Paul-2018-Proceedings-of-the-IEEE-PCA-in-High-Dimensions-An-orientation.html">
+                <span class="post-teaser__title">Johnstone and Paul 2018 Proceedings of the IEEE - PCA in High Dimensions - An orientation</span>
+                <span class="post-teaser__date">04 November 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/stats/2019/08/29/Domingos-2012-et-al-Proceeds-of-the-ACM-A-Few-Useful-Things-to-Know-About-Machine-Learning.html">
+                <span class="post-teaser__title">Domingos 2012 Proceeds of the ACM - A Few Useful Things to Know About Machine Learning</span>
+                <span class="post-teaser__date">29 August 2019</span>
+            </a>
+        </li>
+    
+</ul>
+:ET

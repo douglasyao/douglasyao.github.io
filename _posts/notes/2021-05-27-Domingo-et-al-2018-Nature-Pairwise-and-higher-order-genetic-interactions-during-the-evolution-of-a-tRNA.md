@@ -50,11 +50,7 @@ In this paper, the authors constructed \\(5184\\) distinct genotypes for the arg
 
 **3a**: Significance of epistatic effects of 87 possible pairs of mutations across all genetic backgrounds (**top**) and 7 different yeast species (**bottom**). Pairwise epistatic effects were computed by taking the difference in the log(fitness) between the pairwise mutant vs. expected phenotype (sum of 1st order effects on log(fitness)).
 
-_What's interesting is that most pairwise epistatic effects are negative in the yeast species, but across all genetic backgrounds they are basically equally negative and positive. This might have something to do with the fact that most of the yeast species have high fitness relative to the average genotype (see Fig 1e), so there is more fitness to "lose" when knocking out two genes at a time.  _
-
-_
-
-_
+_What's interesting is that most pairwise epistatic effects are negative in the yeast species, but across all genetic backgrounds they are basically equally negative and positive. This might have something to do with the fact that most of the yeast species have high fitness relative to the average genotype (see Fig 1e), so there is more fitness to "lose" when knocking out two genes at a time._
 
 _I like this framing of understanding high-order interaction effects as the differential effect of pairwise epistatic effects in different genetic backgrounds; it's more intuitive than talking about the high-order interaction effects directly._
 

@@ -1,0 +1,48 @@
+I"Ð<h1 id="blog">Blog</h1>
+
+<ul class="list-posts">
+    
+        <li class="post-teaser">
+            <a href="/blogs/2021/03/22/General-overview-of-Yao-et-al-2020.html">
+                <span class="post-teaser__title">General overview of Yao et al. 2020</span>
+                <span class="post-teaser__date">22 March 2021</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/blogs/2020/10/04/frequentist-bayesian.html">
+                <span class="post-teaser__title">Understanding frequentist vs. Bayesian inference</span>
+                <span class="post-teaser__date">04 October 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/blogs/2020/09/25/intuition-behind-permutation-testing.html">
+                <span class="post-teaser__title">Understanding permutation testing</span>
+                <span class="post-teaser__date">25 September 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/blogs/2020/09/16/intuition-behind-mediated-expression-score-regression.html">
+                <span class="post-teaser__title">Detailed overview of Yao et al. 2020</span>
+                <span class="post-teaser__date">16 September 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/blogs/2020/09/14/some-useful-things-to-know-about-heritability.html">
+                <span class="post-teaser__title">Some useful things to know about heritability (2/2)</span>
+                <span class="post-teaser__date">14 September 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/blogs/2020/09/13/understanding-heritability-from-the-ground-up.html">
+                <span class="post-teaser__title">Introduction to heritability (1/2)</span>
+                <span class="post-teaser__date">13 September 2020</span>
+            </a>
+        </li>
+    
+</ul>
+:ET

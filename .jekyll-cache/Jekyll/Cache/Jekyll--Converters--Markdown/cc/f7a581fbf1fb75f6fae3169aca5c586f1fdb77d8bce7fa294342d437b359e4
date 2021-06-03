@@ -1,0 +1,114 @@
+I"<h1 id="paper-topics">Paper topics</h1>
+
+<div class="explore">
+    <ul class="categories">
+		<li class="categories__item"><a href="/notes" style="text-decoration:underline;color:black">All</a></li>
+        
+            <li class="categories__item"><a href="/categories/stats">Statistics/math</a></li>
+        
+            <li class="categories__item"><a href="/categories/genetics">Genetics</a></li>
+        
+            <li class="categories__item"><a href="/categories/genomics">Biology/genomics</a></li>
+        
+            <li class="categories__item"><a href="/categories/drug">Drug development</a></li>
+        
+            <li class="categories__item"><a href="/categories/other">Other</a></li>
+        
+    </ul>
+</div>
+
+<ul class="list-posts">
+    
+        <li class="post-teaser">
+            <a href="/notes/genetics/2021/05/23/Domingo-et-al-2018-Nature-Pairwise-and-higher-order-genetic-interactions-during-the-evolution-of-a-tRNA.html">
+                <span class="post-teaser__title">Domingo et al. 2018 Nature - Pairwise and higher-order genetic interactions during the evolution of a tRNA</span>
+                <span class="post-teaser__date">23 May 2021</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genetics/2021/05/13/Poelwijk-et-al-2019-Nature-Communications-Learning-the-pattern-of-epistasis-linking-genotype-and-phenotype-in-a-protein.html">
+                <span class="post-teaser__title">Poelwijk et al. 2019 Nature Communications - Learning the pattern of epistasis linking genotype and phenotype in a protein</span>
+                <span class="post-teaser__date">13 May 2021</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/other/2021/03/26/Ioannidis-2005-Why-Most-Published-Research-Findings-Are-False.html">
+                <span class="post-teaser__title">Ioannidis 2005 PLoS Medicine - Why Most Published Research Findings Are False</span>
+                <span class="post-teaser__date">26 March 2021</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/stats/2020/11/04/Johnstone-and-Paul-2018-Proceedings-of-the-IEEE-PCA-in-High-Dimensions-An-orientation.html">
+                <span class="post-teaser__title">Johnstone and Paul 2018 Proceedings of the IEEE - PCA in High Dimensions - An orientation</span>
+                <span class="post-teaser__date">04 November 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genomics/2020/10/28/Sun-et-al-2020-Nature-Methods-Statistical-analysis-of-spatial-expression-patterns-for-spatially-resolved-transcriptomic-studies.html">
+                <span class="post-teaser__title">Sun et al. 2020 Nature Methods - Statistical analysis of spatial expression patterns for spatially resolved transcriptomic studies</span>
+                <span class="post-teaser__date">28 October 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genomics/2020/10/28/Elowitz-et-al-2002-Science-Stochastic-Gene-Expression-in-a-Single-Cell.html">
+                <span class="post-teaser__title">Elowitz et al. 2002 Science - Stochastic Gene Expression in a Single Cell</span>
+                <span class="post-teaser__date">28 October 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genomics/2020/10/26/Parnas-et-al-2015-Cell-A-Genome-wide-CRISPR-Screen-in-Primary-Immune-Cells-to-Dissect-Regulatory-Networks.html">
+                <span class="post-teaser__title">Parnas et al. 2015 Cell - A Genome-wide CRISPR Screen in Primary Immune Cells to Dissect Regulatory Networks</span>
+                <span class="post-teaser__date">26 October 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genomics/2020/10/25/Brubaker-et-al-2015-Annual-Reviews-of-Immunology-Innate-Immune-Pattern-Recognition-A-Cell-Biological-Perspective.html">
+                <span class="post-teaser__title">Brubaker et al. 2015 Annual Reviews of Immunology - Innate Immune Pattern Recognition - A Cell Biological Perspective</span>
+                <span class="post-teaser__date">25 October 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genomics/2020/10/18/Shalek-et-al-2014-Nature-Single-cell-RNA-seq-reveals-dynamic-paracrine-control-of-cellular-variation.html">
+                <span class="post-teaser__title">Shalek et al. 2014 Nature - Single-cell RNA-seq reveals dynamic paracrine control of cellular variation</span>
+                <span class="post-teaser__date">18 October 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genetics/2020/08/10/Bruford-Nature-Genetics-2020-Guidelines-for-human-gene-nomenclature.html">
+                <span class="post-teaser__title">Bruford et al. 2020 Nature Genetics - Guidelines for human gene nomenclature</span>
+                <span class="post-teaser__date">10 August 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genetics/2019/09/09/Quick-BioRxiv-2019-Integrating-Comprehensive-Functional-Annotations-to-Boost-Power-and-Accuracy-in-Gene-Based-Association-Analysis.html">
+                <span class="post-teaser__title">Quick et al. 2019 BioRxiv - Integrating Comprehensive Functional Annotations to Boost Power and Accuracy in Gene-Based Association Analysis</span>
+                <span class="post-teaser__date">09 September 2019</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genomics/2019/08/31/Chen-2018-Ann-Rev-BMS-From-Tissues-to-Cell-Types-and-Back-Single-Cell-Gene-Expression-Analysis-of-Tissue-Architecture.html">
+                <span class="post-teaser__title">Chen et al. 2018 Ann Rev BMS - From Tissues to Cell Types and Back - Single-Cell Gene Expression Analysis of Tissue Architecture</span>
+                <span class="post-teaser__date">31 August 2019</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/stats/2019/08/29/Domingos-2012-et-al-Proceeds-of-the-ACM-A-Few-Useful-Things-to-Know-About-Machine-Learning.html">
+                <span class="post-teaser__title">Domingos 2012 Proceeds of the ACM - A Few Useful Things to Know About Machine Learning</span>
+                <span class="post-teaser__date">29 August 2019</span>
+            </a>
+        </li>
+    
+</ul>
+:ET

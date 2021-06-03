@@ -1,0 +1,40 @@
+I"<h1 id="paper-topics">Paper topics</h1>
+
+<div class="explore">
+    <ul class="categories">
+		<li class="categories__item"><a href="/notes">All</a></li>
+        
+            
+              <li class="categories__item"><a href="/categories/stats">Statistics/math</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/genetics">Genetics</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/genomics">Biology/genomics</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/drug">Drug development</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/other" style="text-decoration:underline;color:black">Other</a></li>
+            
+        
+    </ul>
+</div>
+
+<ul class="list-posts">
+    
+        <li class="post-teaser">
+            <a href="/notes/other/2021/03/26/Ioannidis-2005-Why-Most-Published-Research-Findings-Are-False.html">
+                <span class="post-teaser__title">Ioannidis 2005 PLoS Medicine - Why Most Published Research Findings Are False</span>
+                <span class="post-teaser__date">26 March 2021</span>
+            </a>
+        </li>
+    
+</ul>
+:ET

@@ -1,0 +1,59 @@
+I"�<p><strong>Authors</strong>: Sky W. Brubaker, Kevin S. Bonham, Ivan Zanoni, and Jonathan C. Kagan</p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5146691/">Link to paper</a></p>
+
+<h2 id="synopsis">Synopsis</h2>
+
+<p>This review paper describes the molecular pathways involved in the innate immune response. I will focus specifically on the TLR4 pathway response to lipopolysaccharide (LPS), as this pathway is one that I am studying in my own research.</p>
+
+<h2 id="summary">Summary</h2>
+
+<p><img src="/assets/Brubaker-et-al-2015-Annual-Reviews-of-Immunology-Innate-Immune-Pattern-Recognition-A-Cell-Biological-Perspective-109635d4-eb82-4b76-8532-6b93b5684278.png" alt="109635d4-eb82-4b76-8532-6b93b5684278.png" width="450px" /></p>
+
+<p>This figure summarizes the entire TLR4 pathway, which includes signaling from both the cell surface and from endosomes. Here is an alternate figure of the same pathway from <a href="https://en.wikipedia.org/wiki/TLR4">Wikipedia</a>:</p>
+
+<p><img src="/assets/Brubaker-et-al-2015-Annual-Reviews-of-Immunology-Innate-Immune-Pattern-Recognition-A-Cell-Biological-Perspective-1e572216-a0f0-4509-9a66-2a1d9f12fb04.png" alt="1e572216-a0f0-4509-9a66-2a1d9f12fb04.png" width="450px" /></p>
+
+<h3 id="lps-multireceptor-complex">LPS multireceptor complex</h3>
+
+<p>The LPS multireceptor complex is the first thing that binds to LPS and activates the TLR4 signaling pathway. It is made up of 4 genes:</p>
+
+<ol>
+  <li><strong>TLR4</strong> (Toll-like receptor 4)</li>
+  <li><strong>MD-2</strong> (Myeloid differentiation factor 2) aka <strong>LY96</strong> (Lymphocyte antigen 96)</li>
+  <li><strong>CD14</strong> (Cluster of differentiation 14)</li>
+  <li><strong>LBP</strong> (LPS binding protein)</li>
+</ol>
+
+<p>LBP binds to LPS and facilitates the transfer of LPS to CD14. CD14 then transfers LPS to TLR4-bound MD-2, which dimerizes TLR4 leading to signal transduction. CD14 also helps traffic TLR4 from the plasma membrane into the endosomes, resulting in additional signal transduction.</p>
+
+<h3 id="tirapmyd88-pathway">TIRAP/MyD88 pathway</h3>
+
+<p>This pathway occurs immediately following the previous one and occurs from the cell surface. It comprises the following steps:</p>
+
+<ol>
+  <li>TLR4 moves to lipid rafts and interacts with <strong>TIRAP</strong> (TIR Domain-Containing Adaptor Protein)</li>
+  <li>TIRAP oligomerizes with <strong>MyD88</strong> (Myeloid Differentiation Primary Response Gene 88) and <strong>IRAK1/2/4</strong> (IL-1 Receptor Associated Kinases) to form a myddosome</li>
+  <li>IRAKs recruit <strong>TRAF6</strong> (TNF Receptor-Associated Factor 6)</li>
+  <li>TRAF6 recruits kinase complexes containing <strong>TAK1</strong> (Transforming growth factor-beta-Activated Kinase 1, aka <strong>MAP3K7</strong>) and <strong>TAB1/2/3</strong> (TAK1-Binding protein)</li>
+  <li><strong>IKKa/b/g</strong> (IkB Kinase aka <strong>CHUK</strong>, <strong>IKBKB</strong> and <strong>IKBKG</strong>) gets recruited and activates <strong>NF-kB</strong>. NF-kB leads to downstream effects including production of proinflammatory cytokines such as <strong>IL-12</strong> and <strong>TNF</strong>.</li>
+  <li><strong>TAK1</strong> (aka <strong>MAP3K7</strong>) gets released into the cytoplasm and acts as a MAPKKK (mitogen-activation protein kinase kinase kinase). The MAPK cascade leads to activation of <strong>AP-1</strong> (activator protein 1), involved in expression of proinflammatory cytokines.</li>
+</ol>
+
+<h3 id="triftram-pathway">TRIF/TRAM pathway</h3>
+
+<p>In addition to the TIRAP/MyD88 pathway (which occurs from the cell surface), TLR4 signaling also continues from endosomes.</p>
+
+<ol>
+  <li>TLR4 engages <strong>TRAM</strong> (TRIF-related Adaptor Molecule aka <strong>TICAM2</strong>)</li>
+  <li>TRAM  interacts with <strong>TRIF</strong> (TIR-domain-containing adaptor inducing interferon-beta aka <strong>TICAM1</strong>) </li>
+  <li>TRIF interacts with <strong>RIPK1</strong> (Receptor Interacting Serine/Threonine Kinase 1), <strong>TRADD</strong> (TNFRSF1A Associated via Death Domain), <strong>CASP8</strong> (Caspase 8), <strong>FADD</strong> (Fas-associated protein with death domain aka <strong>MORT1</strong>), and <strong>IKKa/b/g</strong> to start <strong>NF-kB</strong> signaling</li>
+  <li>TRIF also recruits <strong>TRAF3</strong></li>
+  <li>TRAF3 interacts with <strong>TANK</strong> (TRAF family member-associated NF-kB activator) to recruit <strong>IKKg/e</strong> and <strong>TBK1</strong> (TANK binding kinase 1), which activates <strong>IRF3</strong> (Interferon regulatory factor 3)</li>
+  <li>IRF3 is a key transcriptional regulator of type 1 interferon response. The type 1 IFN response involves 6. <strong>IFN-a</strong> and <strong>IFN-b</strong>.</li>
+</ol>
+
+<h3 id="tlr4-independent-cd14-signaling">TLR4-independent CD14 signaling</h3>
+
+<p>CD14 can also signal in response to LPS independently of TLR4. One pathway induces calcium influx via NFAT activation. Another pathway controls endocytosis and moves TLR4 from the plasma membrane into endosomes. The second pathway depends on <strong>ITAM</strong> (immunoreceptor tyrosine-based activation motif), <strong>Syk</strong> (a tyrosine-protein kinase), and <strong>PLCg2</strong> (phospholipase C gamma 2).</p>
+:ET

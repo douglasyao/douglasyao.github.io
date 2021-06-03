@@ -1,0 +1,62 @@
+I"Ô
+<h1 id="paper-topics">Paper topics</h1>
+
+<div class="explore">
+    <ul class="categories">
+		<li class="categories__item"><a href="/notes">All</a></li>
+        
+            
+              <li class="categories__item"><a href="/categories/stats">Statistics/math</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/genetics" style="text-decoration:underline;color:black">Genetics</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/genomics">Biology/genomics</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/drug">Drug development</a></li>
+            
+        
+            
+              <li class="categories__item"><a href="/categories/other">Other</a></li>
+            
+        
+    </ul>
+</div>
+
+<ul class="list-posts">
+    
+        <li class="post-teaser">
+            <a href="/notes/genetics/2021/05/23/Domingo-et-al-2018-Nature-Pairwise-and-higher-order-genetic-interactions-during-the-evolution-of-a-tRNA.html">
+                <span class="post-teaser__title">Domingo et al. 2018 Nature - Pairwise and higher-order genetic interactions during the evolution of a tRNA</span>
+                <span class="post-teaser__date">23 May 2021</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genetics/2021/05/13/Poelwijk-et-al-2019-Nature-Communications-Learning-the-pattern-of-epistasis-linking-genotype-and-phenotype-in-a-protein.html">
+                <span class="post-teaser__title">Poelwijk et al. 2019 Nature Communications - Learning the pattern of epistasis linking genotype and phenotype in a protein</span>
+                <span class="post-teaser__date">13 May 2021</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genetics/2020/08/10/Bruford-Nature-Genetics-2020-Guidelines-for-human-gene-nomenclature.html">
+                <span class="post-teaser__title">Bruford et al. 2020 Nature Genetics - Guidelines for human gene nomenclature</span>
+                <span class="post-teaser__date">10 August 2020</span>
+            </a>
+        </li>
+    
+        <li class="post-teaser">
+            <a href="/notes/genetics/2019/09/09/Quick-BioRxiv-2019-Integrating-Comprehensive-Functional-Annotations-to-Boost-Power-and-Accuracy-in-Gene-Based-Association-Analysis.html">
+                <span class="post-teaser__title">Quick et al. 2019 BioRxiv - Integrating Comprehensive Functional Annotations to Boost Power and Accuracy in Gene-Based Association Analysis</span>
+                <span class="post-teaser__date">09 September 2019</span>
+            </a>
+        </li>
+    
+</ul>
+:ET
