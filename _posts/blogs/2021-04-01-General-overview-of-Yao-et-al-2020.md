@@ -2,7 +2,7 @@
 layout: post
 date: '2021-03-22 17:21:00 +0000'
 updated_at: '2021-04-01 16:02:01 +0000'
-title: General overview of Yao et al. 2020
+title: General overview of "Quantifying genetic effects on disease mediated by assayed gene expression levels" (Yao et al. 2020 Nature Genetics)
 categories: blogs
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Detailed overview of Yao et al. 2020
+title: Detailed overview of "Quantifying genetic effects on disease mediated by assayed gene expression levels" (Yao et al. 2020 Nature Genetics)
 categories: blogs
 ---
 
