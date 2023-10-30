@@ -39,6 +39,10 @@ The high cost of Perturb-seq primarily stems from the large amount of sequencing
 ## How Perturb-seq works currently
 
 In order to describe how we decreased the cost of Perturb-seq, we need to first go through the current experimental protocol of Perturb-seq. A diagram is shown below.
+
+![Alt text](/assets/Summary-of-%22Scalable-genetic-screening-for-regulatory-circuits-using-compressed-Perturb-seq%22-Yao-et-al-2023-Nature-Biotechnology-image.png)
+
+
 We start out with a pool of viruses that each contain an sgRNA, which is basically an instruction that tells a protein called Cas9 where to cut the genome. Next, we 'transduce' a pool of cells with the virus. In other words, we put the viruses on the cells all together, then the viruses will randomly infect the cells and integrate their genomes with the cells' genomes. The concentration of virus (also 'multiplicity of infection' or MOI) is calibrated so that most of the cells will either not be infected at all, or are infected by exactly one virus. Following transduction, we can get rid of all the cells that were not infected, since we include a fluorescent marker or antibiotic resistance gene in the virus that enables us to select for only infected cells. 
 
 Next, we encapsulate the infected cells in special tiny water-in-oil 'droplets' by putting the cells in a microfluidic device (this is a standard step in droplet-based single-cell RNA-sequencing). The cells are loaded into the device at a low concentration so that only one cell at a time enters each droplet. In practice, this results in most droplets being empty. Each droplet contains a bead covered with barcodes that labels every RNA molecule in the droplet with the barcode. Previously, we also designed the virus in a way so that the sgRNA actually gets transcribed, which enables us to read out which sgRNAs are present in a given cell. Finally, the barcoded RNA molecules across all droplets get combined together and sequenced using next-generation sequencing technologies.
