@@ -1,21 +1,28 @@
 /* =Base */
 body {
-    font-family: 'Inconsolata', ;
+    font-family: 'Helvetica', ;
     color: $iron;
     background-color: $dorian;
 }
 
 a {
-    color: #003399;
-    font-weight: bold;
+    color: #0d85e0;
     text-decoration: none;
 
     &:hover {
       color: black;
-      font-weight: bold;
       text-decoration: underline;
     }
 }
+
+a.footnote:before {   
+ content: "[";
+}
+
+a.footnote:after {
+    content: "]";
+}
+
 
 ul, ol, dl, p {
     font-size: 16px;
@@ -87,6 +94,7 @@ strong {
     font-weight: 700;
     color: $iron;
     display: block;
+    text-decoration: none;
 }
 
 .menu {
@@ -109,6 +117,7 @@ strong {
 
 .menu__entry a {
     font-weight: 400;
+    text-decoration: none;
 }
 
 .social-links {

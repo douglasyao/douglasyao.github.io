@@ -6,4 +6,4 @@ permalink: /contact/
 
 # Contact
 
-I am always down to chat about anything! I can be reached at douglasyao [at] g.harvard.edu.
+Please don't hesitate to reach out! I am down to chat about anything. I can be reached at douglasyao2 [at] gmail.com.
