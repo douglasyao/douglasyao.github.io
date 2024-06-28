@@ -10,7 +10,7 @@ I'm currently bootstrapping the pre-clinical stages of developing a drug. With m
 
 This might seem impossible. Drug developers spend millions of dollars, if not significantly more, getting a drug to clinical trials. How am I cutting these costs by several orders of magnitude? 
 
-The short answer is that most of the expensive studies that drug developers run prior to clinical trials are simply not needed. By aggressively cutting out all such unnecessary experiments, and with careful selection of which disease to treat, it's possible to generate the data needed for a drug to enter clinical trials at a tiny fraction of the usual cost. 
+The short answer is that most of the expensive studies that drug developers run prior to clinical trials are simply not needed. By aggressively cutting out all such unnecessary experiments, and with careful selection of which disease to treat (whose nature determines the amount of required data), it's possible to generate the data needed for a drug to enter clinical trials at a tiny fraction of the usual cost. 
 
 If you'd like to chat about this project in more detail and/or collaborate, then please reach out to me at douglasyao2 [at] gmail.com.
 
