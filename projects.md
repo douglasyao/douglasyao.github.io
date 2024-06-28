@@ -12,8 +12,6 @@ This might seem impossible. Drug developers spend millions of dollars, if not si
 
 The short answer is that most of the expensive studies that drug developers run prior to clinical trials are simply not needed. By aggressively cutting out all such unnecessary experiments, and with careful selection of which disease to treat, it's possible to generate the data needed for a drug to enter clinical trials at a tiny fraction of the usual cost. 
 
-I'm working on this for two reasons. For one, I want to cure diseases and reduce the amount of human suffering in the world. I also want to set an example for the industry. Drug development has become outrageously expensive over the past few decades. I want to demonstrate that a much quicker and cheaper path to clinical trials is possible. 
-
 If you'd like to chat about this project in more detail and/or collaborate, then please reach out to me at douglasyao2 [at] gmail.com.
 
 <br>
