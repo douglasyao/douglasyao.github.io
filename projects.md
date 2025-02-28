@@ -10,7 +10,7 @@ I'm currently developing a new Alzheimer's drug by myself. Over the past year, I
 
 All this was done using my savings from graduate school. This might seem impossible. Drug developers spend tens of millions of dollars, if not significantly more, generating pre-clinical efficacy evidence for a new drug. However, I have a new approach that can accomplish this for 1/1000 the usual cost. 
 
-My approach is heavily inspired by strategies developed during "golden age" of drug discovery - the 1960s. Paul Janssen, the most prolific drug developer ever, operated during that time. He and a small chemistry team developed 80 new drugs over the course of his career. His approach was very different from what people do today. It emphasized cheap, rapid synthesis of analogs of existing drugs, rapid animal testing, no target binding studies, and disease mechanism selection based on intuition. His results don't lie. Taking these strategies and augmenting (rather than replacing) them with modern biotechnology and AI tools is the way to go.
+My approach is heavily inspired by strategies developed during the "golden age" of drug discovery - the 1960s. Paul Janssen, the most prolific drug developer ever, operated during that time. He and a small chemistry team developed 80 new drugs over the course of his career. His approach was very different from what people do today. It emphasized cheap, rapid synthesis of analogs of existing drugs, rapid animal testing, no target binding studies, and disease mechanism selection based on intuition. His results don't lie. Taking these strategies and augmenting (rather than replacing) them with modern biotechnology and AI tools is the way to go.
 
 Stay tuned. 
 
