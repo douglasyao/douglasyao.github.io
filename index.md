@@ -11,6 +11,6 @@ sitemap:
 
 Hi! I received my Ph.D. in computational biology from Harvard in 2023 and B.S. in molecular biology from UCLA in 2018.
 
-I'm currently self-funding the development of a new drug. Read more about this project and my past work [here](/projects/). 
+I'm currently developing a new Alzheimer's drug out of my garage using my savings from graduate school. Read more about this project and my past work [here](/projects/). 
 
 I'm always down to chat about anything! Send me an email at douglasyao2 [at] gmail.com. 

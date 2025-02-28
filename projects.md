@@ -6,13 +6,13 @@ permalink: /projects/
 
 # Current work
 
-I'm currently bootstrapping the pre-clinical stages of developing a drug. With my savings from graduate school, I'm designing new small molecule drugs, synthesizing them, and generating in vivo safety and efficacy data in support of a disease with unmet need. 
+I'm currently developing a new Alzheimer's drug by myself. Over the past year, I used AI to design several thousand new small molecule drugs. I taught myself synthetic chemistry and synthesized a hundred of them in my garage, and am now testing them in cell lines and mice for efficacy towards a new Alzheimer's mechanism. 
 
-This might seem impossible. Drug developers spend millions of dollars, if not significantly more, getting a drug to clinical trials. How am I cutting these costs by several orders of magnitude? 
+All this was done using my savings from graduate school. This might seem impossible. Drug developers spend tens of millions of dollars, if not significantly more, generating pre-clinical efficacy evidence for a new drug. However, I have a new approach that can accomplish this for 1/1000 the usual cost. 
 
-The short answer is that most of the expensive studies that drug developers run prior to clinical trials are simply not needed. By aggressively cutting out all such unnecessary experiments, and with careful selection of which diseases to treat (whose nature determines the amount of required data), it's possible to generate the data needed for a drug to enter clinical trials at a tiny fraction of the usual cost. Eventually, I want to have 10 or more different drugs ready to enter clinical trials, of which ~1 will actually pass clinical trials (based on current industry-wide success rates).
+Stay tuned. 
 
-If you'd like to chat about this project in more detail and/or collaborate, then please reach out to me at douglasyao2 [at] gmail.com.
+The first one-person unicorn will be a pharma company. 
 
 <br>
 
