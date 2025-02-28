@@ -6,7 +6,7 @@ permalink: /projects/
 
 # Current work
 
-I'm currently developing a new Alzheimer's drug by myself. Over the past year, I used AI to design several thousand new small molecule drugs. I taught myself synthetic chemistry and synthesized a hundred of them in my garage, and am now testing them in cell lines and mice for efficacy towards a new Alzheimer's mechanism. 
+I'm currently developing a new Alzheimer's drug by myself. Over the past year, I used AI to design several thousand new small molecule drugs. I taught myself synthetic chemistry, built a chem lab in my garage, and synthesized a hundred of these drugs. I'm now testing them in cell lines and mice for efficacy towards a new Alzheimer's mechanism. 
 
 All this was done using my savings from graduate school. This might seem impossible. Drug developers spend tens of millions of dollars, if not significantly more, generating pre-clinical efficacy evidence for a new drug. However, I have a new approach that can accomplish this for 1/1000 the usual cost. 
 
