@@ -6,11 +6,13 @@ permalink: /projects/
 
 # Current work
 
-I'm currently developing a new Alzheimer's drug by myself. Over the past year, I used AI to design several thousand new small molecule drugs. I then taught myself synthetic chemistry, built a chem lab in my garage, and synthesized a hundred of these drugs. I'm now testing them in cell lines and mice for efficacy towards a new Alzheimer's mechanism. 
+I'm developing a new Alzheimer's drug by myself.
 
-All this was done using my savings from graduate school. Drug developers spend tens of millions of dollars, if not significantly more, generating pre-clinical efficacy evidence for a new drug. However, I have a new approach that can accomplish this for 1/1000 the usual cost. 
+Over the past year, I used AI to design several thousand new small molecule drugs. I then taught myself synthetic chemistry, built a chem lab in my garage, and synthesized a hundred of them. I'm now testing these compounds in cell lines and mice.
 
-My approach is heavily inspired by strategies developed during the "golden age" of drug discovery - the 1960s. Paul Janssen, the most prolific drug developer ever, operated during that time. He and a small chemistry team developed 80 new drugs over the course of his career. His approach was very different from what people do today. It emphasized cheap, rapid synthesis of analogs of existing drugs, rapid animal testing, and disease mechanism selection based on intuition, among other things. His track record speaks for itself. I'm applying the same principles, augmented with modern biotech tools. 
+My approach is heavily inspired by the 1960s golden age of drug discovery. Paul Janssen, the most prolific drug developer of that era, led a small chemistry team that developed 80 new drugs over the course of his career. His methods were very different from what people do today, emphasizing cheap, rapid synthesis of analogs of existing drugs, rapid animal testing, and disease mechanism selection based on intuition. The track record speaks for itself. I'm applying the same principles as Janssen, augmented with modern biotech tools.
+
+I'm currently funding this entire project with my savings from graduate school. Drug developers typically spend tens of millions of dollars generating pre-clinical efficacy evidence for a new drug. My approach can do this at 1/1000 the cost.
 
 Stay tuned!
 
